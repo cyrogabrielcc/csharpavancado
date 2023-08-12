@@ -1,6 +1,6 @@
 namespace SobrecarregandoOperadores
 {
-    public class Fracao
+    public class Fracao : IEquatable<Fracao>
     {
        
         public Fracao(int numerador, int denominador) 
@@ -38,6 +38,35 @@ namespace SobrecarregandoOperadores
             return f.Resultado >= f1.Resultado ;
         }
 
+        public static bool operator ==(Fracao f, Fracao f1)
+        {
+            return f.Equals(f1) ;
+        }
 
+        public static bool operator !=(Fracao f, Fracao f1)
+        {
+            return !f.Equals(f1) ;
+        }
+
+        public bool Equals(Fracao other)
+        {
+            return this.Resultado == other.Resultado;
+        }
+
+        public override bool Equals(object obj)
+        {
+            Fracao f = obj as Fracao;
+
+            if (f == null)
+            {
+                return Equals(f);
+            }
+            return false;
+        }
+
+        public override int GetHashCode()
+        {
+            return Resultado.GetHashCode();
+        }
     }
 }
