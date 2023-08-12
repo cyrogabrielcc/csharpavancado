@@ -1,0 +1,14 @@
+C:\dev\DotNet\CSharpAvancado\bin\Debug\net7.0\CSharpAvancado.exe
+C:\dev\DotNet\CSharpAvancado\bin\Debug\net7.0\CSharpAvancado.deps.json
+C:\dev\DotNet\CSharpAvancado\bin\Debug\net7.0\CSharpAvancado.runtimeconfig.json
+C:\dev\DotNet\CSharpAvancado\bin\Debug\net7.0\CSharpAvancado.dll
+C:\dev\DotNet\CSharpAvancado\bin\Debug\net7.0\CSharpAvancado.pdb
+C:\dev\DotNet\CSharpAvancado\obj\Debug\net7.0\CSharpAvancado.GeneratedMSBuildEditorConfig.editorconfig
+C:\dev\DotNet\CSharpAvancado\obj\Debug\net7.0\CSharpAvancado.AssemblyInfoInputs.cache
+C:\dev\DotNet\CSharpAvancado\obj\Debug\net7.0\CSharpAvancado.AssemblyInfo.cs
+C:\dev\DotNet\CSharpAvancado\obj\Debug\net7.0\CSharpAvancado.csproj.CoreCompileInputs.cache
+C:\dev\DotNet\CSharpAvancado\obj\Debug\net7.0\CSharpAvancado.dll
+C:\dev\DotNet\CSharpAvancado\obj\Debug\net7.0\refint\CSharpAvancado.dll
+C:\dev\DotNet\CSharpAvancado\obj\Debug\net7.0\CSharpAvancado.pdb
+C:\dev\DotNet\CSharpAvancado\obj\Debug\net7.0\CSharpAvancado.genruntimeconfig.cache
+C:\dev\DotNet\CSharpAvancado\obj\Debug\net7.0\ref\CSharpAvancado.dll
