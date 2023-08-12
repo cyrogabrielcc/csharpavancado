@@ -15,7 +15,7 @@ namespace SobrecarregandoOperadores
 
         public override string ToString()
         {
-            return $" {Numerador}/{Denominador}";
+            return $"{Numerador}/{Denominador}";
         }
 
         public static Fracao operator *(Fracao f1, Fracao f2)
