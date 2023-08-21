@@ -1,15 +1,23 @@
 ﻿using System.Threading;
 using System.Reflection.PortableExecutable;
+using System.Globalization;
 
 class Program
 {
     public static void Main(string[] args)
     {
-        Vehicle vehicle= new Vehicle(1);
         Semaphore s = new Semaphore();
-        s.AddCallback(vehicle.AlteredSemaphore);
+    
+        for (int i=1; i<=3; i++)
+        {
+            Vehicle vehicle= new Vehicle(i);
+            s.AddCallback(vehicle.AlteredSemaphore);
+        }
+        
         s.Init();
     }
+
+    
 
 }
 
