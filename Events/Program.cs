@@ -1,16 +1,21 @@
-﻿class Program
+﻿using Microsoft.VisualBasic;
+
+class Program
 {
     public static void Main(string[] args)
     {
         NumberGenerator numberGenerator= new NumberGenerator();
-        numberGenerator.OneGenerated += NumberGenerated;
+        numberGenerator.OneGenerated += g_OnGenerated;
         numberGenerator.Start();
     }
 
-    static void NumberGenerated(int n) => Console.WriteLine($"O numero gerado é {n}");
+    static void g_OnGenerated(object sender, NumberEventsArgs args) 
+    { 
+        Console.WriteLine($"O numero gerado é {args.Number}");
+    }
 }
 
-public delegate void NumberHandler(int i);
+public delegate void NumberHandler(object sender, NumberEventsArgs args);
 
 class NumberGenerator
 {
@@ -21,11 +26,21 @@ class NumberGenerator
     {
         while (true)
         {
-            var n = random.Next(100);
+            var n = random.Next(10);
 
-            if(OneGenerated != null)  OneGenerated(n) ;
+            if(OneGenerated != null)
+            {
+                NumberEventsArgs args = new NumberEventsArgs(){Number = n};
+                OneGenerated(this, args);
+            }
 
             Thread.Sleep(600);
         }
     }
 }
+
+public class NumberEventsArgs : EventArgs
+{
+    public int Number { get; set; }
+}
+
