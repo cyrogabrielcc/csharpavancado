@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\dev\\DotNet\\CSharpAvancado\\DelegatesGenericos\\DelegatesGenericos.csproj": {}
+    "c:\\dev\\DotNet\\CSharpAvancado\\DelegatesGenericos\\DelegatesGenericos.csproj": {}
   },
   "projects": {
-    "C:\\dev\\DotNet\\CSharpAvancado\\DelegatesGenericos\\DelegatesGenericos.csproj": {
+    "c:\\dev\\DotNet\\CSharpAvancado\\DelegatesGenericos\\DelegatesGenericos.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\dev\\DotNet\\CSharpAvancado\\DelegatesGenericos\\DelegatesGenericos.csproj",
+        "projectUniqueName": "c:\\dev\\DotNet\\CSharpAvancado\\DelegatesGenericos\\DelegatesGenericos.csproj",
         "projectName": "DelegatesGenericos",
-        "projectPath": "C:\\dev\\DotNet\\CSharpAvancado\\DelegatesGenericos\\DelegatesGenericos.csproj",
+        "projectPath": "c:\\dev\\DotNet\\CSharpAvancado\\DelegatesGenericos\\DelegatesGenericos.csproj",
         "packagesPath": "C:\\Users\\cyrog\\.nuget\\packages\\",
-        "outputPath": "C:\\dev\\DotNet\\CSharpAvancado\\DelegatesGenericos\\obj\\",
+        "outputPath": "c:\\dev\\DotNet\\CSharpAvancado\\DelegatesGenericos\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\cyrog\\AppData\\Roaming\\NuGet\\NuGet.Config"
