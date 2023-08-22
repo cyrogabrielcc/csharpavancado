@@ -28,7 +28,7 @@ class Program
         if (tempMetric == "F") Console.WriteLine(convertToF(value));
         if (tempMetric == "C") Console.WriteLine(convertToC(value));
         else Console.WriteLine("Não Encontrado!");
-        
+          
             
         
     }
