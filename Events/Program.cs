@@ -5,7 +5,10 @@ class Program
     public static void Main(string[] args)
     {
         NumberGenerator numberGenerator= new NumberGenerator();
-        numberGenerator.OneGenerated += g_OnGenerated;
+        numberGenerator.OneGenerated += delegate(object sender, NumberEventsArgs args)
+        {
+            System.Console.WriteLine();
+        }
         numberGenerator.Start();
     }
 
